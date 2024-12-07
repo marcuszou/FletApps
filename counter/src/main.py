@@ -4,6 +4,9 @@ from flet import IconButton, Page, Row, TextField, icons
 def main(page: Page):
     page.title = "Flet counter"
     page.vertical_alignment = "center"
+    page.window_width = 500
+    page.window_height = 700
+    page.bgcolor = "WHITE"
 
     txt_number = TextField(value="0", text_align="right", width=100)
 
