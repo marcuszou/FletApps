@@ -34,19 +34,17 @@ flet run counter
 
 Then you may encounter 2 types of complaints:
 
-Complaint #1: 
+Complaint #1:
 
 > error while loading shared libraries: libgstapp-1.0.so.0: cannot open shared object file: No such file or directory
 
-Complaint #2: 
+Complaint #2:
 
 > error while loading shared libraries: libmpv.so.1: cannot open shared object file: No such file or directory
 
-
-
 - When running Flet app in Windows 11/10, there will be no issue!
 
-- When running Flet project in WSL2 distros, you will encounter the 2 complaints above, then -
+- When running Flet project in WSL2/Ubuntu distros, you will encounter the 2 complaints above, then -
 
 ```shell
 sudo apt install libgstreamer-plugins-base1.0-0
