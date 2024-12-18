@@ -91,4 +91,9 @@ There are only 2 template-based projects: `counter` and `minimal`. actually they
 flet run counter
 ```
 
+Now, run your app as a web app:
+```shell
+flet run --web counter.py
+```
+
 ## The End
