@@ -82,7 +82,7 @@ find *mpv*
 sudo ln -s /usr/lib64/libmpv.so /usr/lib64/libmpv.so.1
 ```
 
-## Run the Demo Projects
+## Run the Demo Project - Counter App
 
 There are only 2 template-based projects: `counter` and `minimal`. actually they are same.
 
@@ -93,7 +93,14 @@ flet run counter
 
 Now, run your app as a web app:
 ```shell
-flet run --web counter.py
+flet run --web counter
+```
+## Run the taskingApp
+This is another demo app utilizing Flet
+```shell
+# flet create taskingApp
+## Working on the details quite a bit ...
+flet run taskingApp
 ```
 
 ## The End

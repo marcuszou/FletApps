@@ -31,6 +31,6 @@ def main(page: ft.Page):
     page.add(entriesRow)
 
 ## Desktop app
-ft.app(target=main)
+# ft.app(target=main)
 ## Web App
-# ft.app(target=main, view=ft.WEB_BROWSER)
+ft.app(target=main, view=ft.WEB_BROWSER)
